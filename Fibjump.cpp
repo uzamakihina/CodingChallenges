@@ -25,6 +25,7 @@ int main(){
 
     int size;
 
+    cout << "Enter the size of the platform: ";
     cin >> size;
     // Initialize platform and blocks;
     for( int i = 0 ; i <= size ; i++){
@@ -33,7 +34,6 @@ int main(){
 
     for(int i = size ; i >= 0 ; i--){
       block.push_back(new platform(size));
-      block[size-i]->lowest = size -30;
     }
 
     platforms[size] = 1;
@@ -71,12 +71,16 @@ int main(){
     }
 
     cout << " \nWith a path of size "<< size +1  << "\n";
+    cout << "The total number of jumps taken is "<< block[0]->lowest << endl;
     cout << "The path of fibonacci jumps are, starting from block 0 \n";
 
-    int last = 0;
+
     int number = block[0]->path.size();
-    for(int i = 0; i < number ; i++){
+
+    cout << "jump " << block[0]->path[number-1] << " blocks to block " << block[0]->path[number-1] << "\n" ;
+    for(int i = 1; i < number ; i++){
       cout << "jump " << block[0]->path[number-i-1] -  block[0]->path[number-i] << " blocks to block " << block[0]->path[number-i-1] << "\n" ;
+
 
     }
 
