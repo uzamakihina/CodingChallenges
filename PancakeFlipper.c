@@ -8,7 +8,7 @@ FILE *rp;
 int main(){
 
 
-rp = fopen("PancakeSide.txt", "w");
+rp = fopen("PancakeOutput.txt", "w");
 FILE *fp;
 fp = fopen("Pancakes.txt", "r");
 int cases;

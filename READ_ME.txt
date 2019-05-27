@@ -1,0 +1,27 @@
+
+
+
+
+DIFFERENT NUMBER SYSTEMS     - We take a number from a number system, with the following input, and output the same value
+in the third provided system. 
+For example:
+"18" "0123456789" "01" the output should be 100100
+Or 
+"!##" "#!@" "0123456789" the output should be 8
+
+
+
+
+PANCAKE FLIPPER     - given a string line of "-" and "+" and a flipper size (n), we can only flip n consecutive pancakes at a time.
+When a "+" is flipped it becomes a "-" and vice versesa.
+Try to flip the pancakes in the least amount of flips so so all the characters are "+" and display the amount of flips.
+If this cannot be done then say its impossible.
+
+
+
+
+FIBJUMP     - given a path starting from block [0] and ending at block[n], n being a user input size, such that there are n + 1
+blocks where the block platform number is block%2. A block is either landable (1) or unlandable(0) 
+with the last and first block always being landable.
+You can only jump on blocks that are landable. 
+What is the least amount of jumps you need to get from block [0] to block [n] assuming you can only do a jump the size of one of the numbers in the fibonacci sequence.

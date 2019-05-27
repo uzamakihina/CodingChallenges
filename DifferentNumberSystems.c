@@ -16,7 +16,7 @@ int main(){
 
   rp = fopen("LanguageOutput.txt", "w");
   FILE *fp;
-  fp = fopen("Language.txt", "r");
+  fp = fopen("LanguageInput.txt", "r");
   char words[100] = {0};
   fgets(words,100,fp);
   int cases = atoi(words);
