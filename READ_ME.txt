@@ -25,3 +25,8 @@ blocks where the block platform number is block%2. A block is either landable (1
 with the last and first block always being landable.
 You can only jump on blocks that are landable. 
 What is the least amount of jumps you need to get from block [0] to block [n] assuming you can only do a jump the size of one of the numbers in the fibonacci sequence.
+
+
+
+
+LONGEST SENTENCE -   Given a paragraph find the sentence with the most amount of words, assuming all sentences are separated by either . or ! or ? 
