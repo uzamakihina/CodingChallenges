@@ -1,1 +1,0 @@
-The description to each challenge will be in the beggining code of each question.
