@@ -1,7 +1,7 @@
 
 // Given the max index x,y on a 2d grid from the user. Print all possible paths that a robot can go
-// to reach the bottom right starting from the top left.
-
+// to reach the bottom right starting from the top left Assuming the robot can only go one down or one right
+// Every step.
 
 #include <iostream>
 using namespace std;
