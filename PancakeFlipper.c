@@ -1,3 +1,17 @@
+
+
+// PANCAKE FLIPPER     - given a string line of "-" and "+" and a flipper size (n), we can only flip n consecutive pancakes at a time.
+// When a "+" is flipped it becomes a "-" and vice versa.
+// Try to flip the pancakes in the least amount of flips so so all the characters are "+" and display the amount of flips.
+// If this cannot be done then say its impossible.
+
+
+
+
+
+
+
+
 #include <stdio.h>
 #include <stdlib.h>
 

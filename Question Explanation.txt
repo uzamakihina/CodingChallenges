@@ -13,7 +13,7 @@ Or
 
 
 PANCAKE FLIPPER     - given a string line of "-" and "+" and a flipper size (n), we can only flip n consecutive pancakes at a time.
-When a "+" is flipped it becomes a "-" and vice versesa.
+When a "+" is flipped it becomes a "-" and vice versa.
 Try to flip the pancakes in the least amount of flips so so all the characters are "+" and display the amount of flips.
 If this cannot be done then say its impossible.
 
@@ -24,9 +24,11 @@ FIBJUMP     - given a path starting from block [0] and ending at block[n], n bei
 blocks where the block platform number is block%2. A block is either landable (1) or unlandable(0) 
 with the last and first block always being landable.
 You can only jump on blocks that are landable. 
-What is the least amount of jumps you need to get from block [0] to block [n] assuming you can only do a jump the size of one of the numbers in the fibonacci sequence.
+What is the least amount of jumps you need to get from block [0] to block [n] assuming you can 
+only do a jump the size of one of the numbers in the fibonacci sequence.
 
 
 
 
-LONGEST SENTENCE -   Given a paragraph find the sentence with the most amount of words, assuming all sentences are separated by either . or ! or ? 
+LONGEST SENTENCE -   Given a paragraph find the sentence with the most amount
+of words, assuming all sentences are separated by either . or ! or ? 

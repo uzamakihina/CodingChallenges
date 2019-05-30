@@ -1,4 +1,9 @@
-
+//
+// FIBJUMP     - given a path starting from block [0] and ending at block[n], n being a user input size, such that there are n + 1
+// blocks where the block platform number is block%2. A block is either landable (1) or unlandable(0)
+// with the last and first block always being landable.
+// You can only jump on blocks that are landable.
+// What is the least amount of jumps you need to get from block [0] to block [n] assuming you can only do a jump the size of one of the numbers in the fibonacci sequence.
 
 
 # include <vector>

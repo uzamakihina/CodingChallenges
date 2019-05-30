@@ -1,4 +1,5 @@
-
+// LONGEST SENTENCE -   Given a paragraph find the sentence with the most amount
+// of words, assuming all sentences are separated by either . or ! or ?
 
 #include <iostream>
 #include <string>
@@ -38,7 +39,7 @@ int main(){
 
   }
 
-  cout << max;
+  cout << "the longest sentence has " << max << " words" << endl;
 
 
 

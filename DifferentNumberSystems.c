@@ -1,4 +1,9 @@
-
+// DIFFERENT NUMBER SYSTEMS     - We take a number from a number system, with the following input, and output the same value
+// in the third provided system.
+// For example:
+// "18" "0123456789" "01" the output should be 100100
+// Or
+// "!##" "#!@" "0123456789" the output should be 8
 
 
 
